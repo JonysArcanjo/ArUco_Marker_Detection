@@ -1,5 +1,6 @@
 # ArUco Marker Detection
-![]()
+![Design sem nome (6)](https://github.com/JonysArcanjo/ArUco_Marker_Detection/assets/48812740/27303272-dba7-4edd-b9ae-4025c3f149c6)
+
 ## Sobre o Projeto
 
 Este repositório contém uma implementação simples e eficaz de detecção de marcadores ArUco, usando OpenCV e a biblioteca imutils para manipulação de imagem.
