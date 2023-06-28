@@ -6,7 +6,7 @@
 Este repositório contém uma implementação simples e eficaz de detecção de marcadores ArUco, usando OpenCV e a biblioteca imutils para manipulação de imagem.
 
 
-[Artigo com detalhamento do projeto.]()
+[Artigo com detalhamento do projeto.](https://medium.com/jonys-arcanjo/detec%C3%A7%C3%A3o-de-marcadores-aruco-em-streams-de-v%C3%ADdeo-em-tempo-real-com-opencv-9a3d99c667d7)
 
 
 ## Estrutura do projeto
