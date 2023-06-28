@@ -1,0 +1,6 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-arm64
+imutils=0.5.4=pypi_0
+opencv=4.6.0=py39hdf13c20_9
+python=3.9.16=hea58f1e_0_cpython
