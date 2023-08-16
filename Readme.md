@@ -41,7 +41,18 @@ Este projeto requer as seguintes bibliotecas:
 
 
 ## Conclusão
-A detecção de marcadores ArUco em streams de vídeo em tempo real com OpenCV tem diversas aplicações, como realidade aumentada, navegação e rastreamento de robôs, automação industrial, detecção de gestos e interação humano-computador, e monitoramento de segurança. Os marcadores ArUco oferecem uma detecção precisa e robusta, e o OpenCV fornece funções integradas para detecção e desenho dos marcadores. Ao selecionar um dicionário de marcadores ArUco, é importante considerar a quantidade de marcadores necessários, a resolução da imagem/vídeo e a distância entre os marcadores. A detecção dos marcadores é feita utilizando a função cv2.aruco.detectMarkers, e os resultados podem ser processados e visualizados para aplicações específicas. A implementação do OpenCV para detecção de marcadores ArUco em tempo real é uma base útil para diversas aplicações de visão computacional.
+A detecção de marcadores ArUco em streams de vídeo em tempo real com OpenCV tem diversas aplicações, como realidade aumentada, navegação e rastreamento de robôs, automação industrial, detecção de gestos e interação humano-computador, e monitoramento de segurança. 
+
+Os marcadores ArUco oferecem uma detecção precisa e robusta, e o OpenCV fornece funções integradas para detecção e desenho dos marcadores. Ao selecionar um dicionário de marcadores ArUco, é importante considerar a quantidade de marcadores necessários, a resolução da imagem/vídeo e a distância entre os marcadores. 
+
+A detecção dos marcadores é feita utilizando a função cv2.aruco.detectMarkers, e os resultados podem ser processados e visualizados para aplicações específicas. A implementação do OpenCV para detecção de marcadores ArUco em tempo real é uma base útil para diversas aplicações de visão computacional.
+
+## Contact
+[![LinkedIn](https://img.icons8.com/color/32/000000/linkedin.png)](https://www.linkedin.com/in/jonysarcanjo/)
+
+[![Medium](https://img.icons8.com/color/32/000000/medium-logo.png)](https://medium.com/@jonysarcanjo)
+
+e-mail: contato.jonysarcanjo@gmail.com
 
 ## Licença
 
