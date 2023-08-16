@@ -1,51 +1,37 @@
-# ArUco Marker Detection
-![Design sem nome (6)](https://github.com/JonysArcanjo/ArUco_Marker_Detection/assets/48812740/27303272-dba7-4edd-b9ae-4025c3f149c6)
+# Chroma Key with OpenCV
+![movie (2)](https://github.com/JonysArcanjo/ChromaKey_OpenCV/assets/48812740/c5ebe01c-aa07-4ceb-a385-4fe65e9095c6)
 
-## Sobre o Projeto
+## About the Project
 
-Este repositório contém uma implementação simples e eficaz de detecção de marcadores ArUco, usando OpenCV e a biblioteca imutils para manipulação de imagem.
+This project uses computer vision techniques to manipulate and combine two videos: a primary video and a background video. It extracts pixels from the primary video that correspond to a specific range of green colors and replaces them with the corresponding pixels from the background video. The result is displayed in real-time.
 
+[Detailed article about the project.](https://jonysarcanjo.medium.com/chroma-key-with-opencv-eb3118dee66)
 
-[Artigo com detalhamento do projeto.](https://medium.com/jonys-arcanjo/detec%C3%A7%C3%A3o-de-marcadores-aruco-em-streams-de-v%C3%ADdeo-em-tempo-real-com-opencv-9a3d99c667d7)
+## Project Structure
+- Readme.md
+- data
+  - background_canva.mp4
+  - shakira_modnet_com.mp4
+- main.py
+- requirements.txt
 
+## Libraries Used
 
-## Estrutura do projeto
-```
-.
-├── Readme.md
-├── ar.py
-├── camera_calibration.py
-├── detect_video.py
-├── requirements.txt
-└── undistort_image.py
-```
+The following libraries are used in this project:
+- OpenCV (cv2): Used for image and video processing.
+- Numpy
 
-- ar.py - Detectar marcadores ArUco em tempo real usando a câmera do computador.
-- camera_calibration.py - O objetivo deste código é realizar a calibração de uma câmera utilizando imagens de um tabuleiro de xadrez.
-- detect_video.py - Realizar a detecção de marcadores ArUco em tempo real utilizando a câmera do computador (Desenha caixas delimitadoras em torno dos marcadores detectados e calcula e desenha as coordenadas do centro de cada marcado).
-- undistort_image.py - O objetivo deste código é desdistorcer uma imagem utilizando parâmetros de calibração de câmera previamente calculados.
+## Application in Production
 
+This computer vision project can be applied in various applications, such as:
 
-## Bibliotecas Utilizadas
-Este projeto requer as seguintes bibliotecas:
+1. Video Conferencing: It can be used to replace the background of a primary video during video calls, providing a virtual background.
+2. Augmented Reality: By replacing the green color with virtual objects or scenes, it can enhance the augmented reality experience.
+3. Special Effects: It can be used in video production to add special effects or merge multiple video sources.
 
-- OpenCV
-- imutils
+## Conclusion
 
-## Aplicação em PRD
-- Realidade Aumentada (AR)
-- Navegação e rastreamento de robôs
-- Automação industrial
-- Detecção de gestos e interação humano-computador
-- Monitoramento de segurança
-
-
-## Conclusão
-A detecção de marcadores ArUco em streams de vídeo em tempo real com OpenCV tem diversas aplicações, como realidade aumentada, navegação e rastreamento de robôs, automação industrial, detecção de gestos e interação humano-computador, e monitoramento de segurança. 
-
-Os marcadores ArUco oferecem uma detecção precisa e robusta, e o OpenCV fornece funções integradas para detecção e desenho dos marcadores. Ao selecionar um dicionário de marcadores ArUco, é importante considerar a quantidade de marcadores necessários, a resolução da imagem/vídeo e a distância entre os marcadores. 
-
-A detecção dos marcadores é feita utilizando a função cv2.aruco.detectMarkers, e os resultados podem ser processados e visualizados para aplicações específicas. A implementação do OpenCV para detecção de marcadores ArUco em tempo real é uma base útil para diversas aplicações de visão computacional.
+This project demonstrates the use of computer vision techniques to replace a specific color range in a primary video with the corresponding pixels from a background video. It can be extended and customized based on specific requirements and applications.
 
 ## Contact
 [![LinkedIn](https://img.icons8.com/color/32/000000/linkedin.png)](https://www.linkedin.com/in/jonysarcanjo/)
@@ -54,6 +40,5 @@ A detecção dos marcadores é feita utilizando a função cv2.aruco.detectMarke
 
 e-mail: contato.jonysarcanjo@gmail.com
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
+## License
+This project is licensed under the MIT License.
